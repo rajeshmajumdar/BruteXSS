@@ -136,7 +136,7 @@ def complete(p, r, c, d):
         if c == 0:
             output.insert(END, "\n[+] Given parameters are not vulnerable.")
         elif c == 1:
-            output.insert(END, "\n[+] %s Parameter is vulnerable to XSS."%c)
+            output.insert(END, "\n[+] 0 parameters are vulnerable to XSS."%c)
         else:
             output.insert(END, "\n[+] %s Parameters are vulnerable to XSS."%c)
 
