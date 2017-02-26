@@ -124,7 +124,7 @@ def getmethod(vlink):
             else:
                 c = 0
     if c == 0:
-        output.insert(END, "\n[+] '%s' parameter not vulnerable.")%pn
+        output.insert(END, "\n[+] '"+pn+"' parameter not vulnerable.")
         fresult.append("Not Vulnerable")
         prgs = prgs + 1
         pass
