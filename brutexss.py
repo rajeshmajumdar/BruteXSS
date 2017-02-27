@@ -105,11 +105,10 @@ def getmethod(vlink):
 	    for x in payloads: #
                 validate = x.translate(None, whitespace)
 		if validate == "":
-
 		    prgs = prgs + 1
 		else:
-		    output.insert(END, "\n[+] %i / %s payloads injected..."% (prgs,len(payloads)))
 		    prgs = prgs + 1
+		    output.insert(END, "\n[+] %i / %s payloads injected..."% (prgs,len(payloads)))
 		    enc = urllib.quote_plus(x)
 		    data = path+"?"+pn+"="+pv+enc
 		    page = urllib.urlopen(data)
@@ -119,8 +118,6 @@ def getmethod(vlink):
 			    fresult.append("  Vulnerable  ")
 			    c = 1
                 total = total+1
-                prgs = prgs + 1
-                break
             else:
                 c = 0
     if c == 0:
