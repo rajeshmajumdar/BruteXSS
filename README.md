@@ -14,6 +14,8 @@ This tool is developed in Python, so obviously cross platform, you just need Pyt
 
 ![Alt text](/screenshots/brutexssaction.png?raw=true "BruteXSS in action")
 
+![Alt text](/screenshots/bupdate.png?raw=True "BruteXSS Auto-Update feature")
+
 # Steps
 
 1. Just download your tool & run brutexss.py (Everything this tool needed is provided to it)
