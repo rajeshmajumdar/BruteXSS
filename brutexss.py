@@ -573,7 +573,7 @@ def start():
     tkMessageBox.showinfo(title="Disclaimer", message="This tool is a free software.\nIt means you are not allowed to modify the source code, or any files of this tool, or not allowed to sell its copy.\nYou can use this tool in your tool but you are not allowed to modify anything.")
     mainbody()
 
-if __author__ == brutexss:
+if __author__ == 'Rajesh Majumdar':
     checkupdates()
 else:
     print "Noob! Don't try to modify the code."
