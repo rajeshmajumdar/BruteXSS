@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 __author__ = 'Rajesh Majumdar'
-__version__ = '1.2'
+__version__ = '1.3'
 
 try:
     from tkinter import *
