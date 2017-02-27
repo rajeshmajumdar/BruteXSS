@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 __author__ = 'Rajesh Majumdar'
-__version__ = '1.3'
+__version__ = '1.4'
 
 try:
     from tkinter import *
@@ -127,8 +127,6 @@ def mainbody():
                                 fresult.append("  Vulnerable  ")
                                 c = 1
                     total = total+1
-                    prgs = prgs + 1
-                    break
                 else:
                     c = 0
         if c == 0:
@@ -225,8 +223,6 @@ def mainbody():
                         fresult.append("  Vulnerable  ")
                         c = 1
                         total = total+1
-                        prgs = prgs + 1
-                        break
                     else:
                         c = 0
             if c == 0:
