@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 __author__ = 'Rajesh Majumdar'
-__version__ = '1.1'
+__version__ = '1.2'
 
 try:
     from tkinter import *
@@ -34,6 +34,8 @@ from wordlistimport import importword
 from checkurl import checkurl
 from parameters import checkparams, getquery
 import mechanize
+
+brutexss = urllib2.urlopen('https://raw.githubusercontent.com/rajeshmajumdar/BruteXSS/master/brutexss.txt').read()
 
 def mainbody():
 
@@ -571,7 +573,7 @@ def start():
     tkMessageBox.showinfo(title="Disclaimer", message="This tool is a free software.\nIt means you are not allowed to modify the source code, or any files of this tool, or not allowed to sell its copy.\nYou can use this tool in your tool but you are not allowed to modify anything.")
     mainbody()
 
-if __author__ == 'Rajesh Majumdar':
+if __author__ == brutexss:
     checkupdates()
 else:
     print "Noob! Don't try to modify the code."
