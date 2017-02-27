@@ -279,9 +279,9 @@ def mainbody():
 
 
         #The bruteforce part
-        if postchecked == 1:
+        if postchecked == '1':
             postmethod(link)
-        elif getchecked == 1:
+        elif getchecked == '1':
             getmethod(link)
         else:
             output.insert(END, "\n[+] Something went wrong!")
