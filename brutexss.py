@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 __author__ = 'Rajesh Majumdar'
-__version__ = '1.4'
+__version__ = '1.5'
 
 try:
     from tkinter import *
@@ -281,12 +281,9 @@ def mainbody():
         #The bruteforce part
         if postchecked == '1':
             postmethod(link)
-        elif getchecked == '1':
-            getmethod(link)
         else:
-            output.insert(END, "\n[+] Something went wrong!")
-            top.mainloop()
-
+            getmethod(link)
+            
     def process():
         progress.start(1)
         bckprocess = threading.Thread(target=execute)
