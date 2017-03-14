@@ -22,3 +22,5 @@ This tool is developed in Python, so obviously cross platform, you just need Pyt
 
 # CLI Developer : Shawar Khan
 # GUI Developer : Rajesh Majumdar
+
+I noticed that some of you, are having problems using this tool, like it is not showing any results.I recommend you to update the tool & most of you don't select the method.
