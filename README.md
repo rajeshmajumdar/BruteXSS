@@ -27,6 +27,6 @@ I noticed that some of you, are having problems using this tool, like it is not 
 
 # Buy me a coffee
 
-You can help me buying more coffee, so that I can continue to turn coffee into code.
+You can help me buying more coffee, so that I can continue turning coffee into code.
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2LQFT9QM4M7YU)
