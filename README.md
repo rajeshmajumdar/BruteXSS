@@ -25,8 +25,10 @@ This tool is developed in Python, so obviously cross platform, you just need Pyt
 
 I noticed that some of you, are having problems using this tool, like it is not showing any results.I recommend you to update the tool & most of you don't select the method.
 
-#Buy me a coffee
+# Buy me a coffee
+
 You can help me buying more coffee, so that I can continue to turn coffee into code.
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="2LQFT9QM4M7YU">
