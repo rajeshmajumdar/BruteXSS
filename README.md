@@ -21,7 +21,10 @@ This tool is developed in Python, so obviously cross platform, you just need Pyt
 1. Just download your tool & run brutexss.py (Everything this tool needed is provided to it)
 
 # CLI Developer : Shawar Khan
+https://github.com/shawarkhanethicalhacker/BruteXSS
+
 # GUI Developer : Rajesh Majumdar
+https://github.com/rajeshmajumdar/BruteXSS
 
 I noticed that some of you, are having problems using this tool, like it is not showing any results.I recommend you to update the tool & most of you don't select the method.
 
