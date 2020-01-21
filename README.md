@@ -1,3 +1,5 @@
+# :warning: This project has been discontinued. :warning:  
+
 # BruteXSS
 
 BruteXSS is a tool written in python simply to find XSS vulnerabilities in web application.
